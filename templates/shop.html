@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% block title %}
+    Van Books -Shop
+{% endblock %}
+
+{% block content %}
+<section id="advert">
+    <h1>Biggest Sale of the Year</h1>
+
+<section id="book_table">
+    <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Book</th>
+      <th scope="col">Author</th>
+      <th scope="col">Price</th>
+      <th scope="col">Get It</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for item in items %}
+    <tr>
+
+          <td>{{item.bid}}</td>
+          <td>{{ item.book_name}}</td>
+          <td>{{ item.Author}}</td>
+          <td>₹ {{item.price}}</td>
+          <td>
+              <button class="btn btn-outline-danger">Read</button>
+              <button class="btn btn-outline-light">Buy Now</button>
+          </td>
+
+    </tr>
+  {% endfor %}
+
+  </tbody>
+</table>
+
+
+{% endblock %}

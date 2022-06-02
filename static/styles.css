@@ -1,0 +1,30 @@
+body{
+    background-color: #202B40;
+}
+
+/*ALL THE TEXT STYLING*/
+
+h1,h2{color: #F2E8C3;
+    font-family: 'Quicksand', sans-serif;}
+p{color:floralwhite;
+  font-family: 'Quicksand', sans-serif;}
+
+/*NAVBAR STYLING*/
+
+.navbar-brand{
+  font-family: 'Cinzel', serif;
+  font-size: 3.5rem;
+  font-weight: bold;
+
+}
+
+/*TABLE STYLING*/
+.table{
+    color: floralwhite;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/*For ALL Buttons*/
+.btn{
+    font-family: 'Josefin Sans', sans-serif;
+}
